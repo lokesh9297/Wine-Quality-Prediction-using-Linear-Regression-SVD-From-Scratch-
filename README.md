@@ -48,27 +48,14 @@ Instead of gradient descent, we solve for weights using **Singular Value Decompo
 3. Compute the optimal weights using the computed inverse: \( X = A^+ B \)
 4. Predict and evaluate on test data (MSE and R² score computed manually)
 
-### 3. **Train-Test Split Implementation (Manually Coded)**
-- **80% training, 20% testing** implemented using **random indexing**
-- **Standardized features manually without `StandardScaler`**
 - **Bias term added explicitly in the feature matrix**
-
-## How to Run the Project
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/lokesh9297/Wine-Quality-Prediction-using-Linear-Regression-SVD-From-Scratch-.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install numpy pandas
-   ```
 
 ## Results
 - **Gradient Descent Regression:**
-  - Training MSE: *~0.40*
-  - Test MSE: *~0.42*
-  - R² Score: *~0.35*
+  - Training MSE: *~0.42*
+  - Test MSE: *~0.39*
+  - R² Score: *~0.34*
 - **SVD-Based Regression:**
-  - Training MSE: *~0.38*
-  - Test MSE: *~0.41*
-  - R² Score: *~0.36*
+  - Training MSE: *~0.42*
+  - Test MSE: *~0.39*
+  - R² Score: *~0.34*
